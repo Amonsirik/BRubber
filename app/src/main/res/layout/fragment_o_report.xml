@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Toolbar-->
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:id="@+id/toolbarOReport">
+    </android.support.v7.widget.Toolbar>
+
+<!--Button-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_gravity="center"
+            android:textSize="@dimen/h2"
+            android:textColor="@color/colorPrimary"
+            android:background="#b4ffffff"
+            android:text="รายงานการรับซื้อน้ำยาง"
+            android:layout_width="300dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/h2"
+            android:textColor="@color/colorPrimary"
+            android:background="#b4ffffff"
+            android:text="รายงานการรับซื้อยางแผ่น"
+            android:layout_width="300dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/h2"
+            android:textColor="@color/colorPrimary"
+            android:background="#b4ffffff"
+            android:text="รายงานการรับซื้อยางก้อน"
+            android:layout_width="300dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
